@@ -23,12 +23,11 @@
             line-height: 1.6;
         }
 
-        /* Menú Lateral */
         #sidebar {
             position: fixed;
             top: 0;
             left: 0;
-            width: 280px;
+            width: 300px;
             height: 100vh;
             background-color: var(--azul-oscuro);
             color: var(--blanco);
@@ -62,9 +61,8 @@
             font-weight: bold;
         }
 
-        /* Contenido */
         #main-content {
-            margin-left: 300px;
+            margin-left: 320px;
             padding: 40px;
         }
 
@@ -97,34 +95,56 @@
             margin-top: 0;
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
-            font-size: 1.8rem;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+        .seccion h3 {
+            color: var(--azul-claro);
+            font-size: 1.5rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .seccion h4 {
+            color: var(--azul-oscuro);
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
         }
 
         .seccion p {
             font-size: 1.05rem;
-            white-space: pre-wrap;
+            margin-bottom: 15px;
+            text-align: justify;
         }
 
-        .galeria-imagenes {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
-            justify-content: center;
+        .seccion ul, .seccion ol {
+            margin: 10px 0 20px 20px;
+            padding: 0;
         }
 
-        .galeria-imagenes img {
+        .seccion li {
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+
+        .seccion img {
             max-width: 100%;
             height: auto;
             max-height: 400px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            border: 3px solid var(--gris-claro);
+            border: 2px solid var(--gris-claro);
+            display: block;
+            margin: 20px auto; /* Centramos la imagen */
             transition: transform 0.2s;
         }
 
-        .galeria-imagenes img:hover {
-            transform: scale(1.03);
+        .seccion img:hover {
+            transform: scale(1.02);
         }
 
         #menu-toggle {
@@ -156,9 +176,7 @@
 
     <nav id="sidebar">
         <h2>⚔️ Kingdom Hearts</h2>
-        <div id="menu-links">
-            <!-- Los enlaces se generan aquí automáticamente -->
-        </div>
+        <div id="menu-links"></div>
     </nav>
 
     <main id="main-content">
@@ -166,68 +184,80 @@
             <h1>Kingdom Hearts</h1>
             <p>Guía Completa, 100% Walkthrough</p>
         </header>
-        <div id="contenido-secciones">
-            <!-- Los capítulos se generan aquí automáticamente -->
-        </div>
+        <div id="contenido-secciones"></div>
     </main>
 
     <script>
-        // 1. Lógica del menú móvil
         const toggleBtn = document.getElementById('menu-toggle');
         const sidebar = document.getElementById('sidebar');
         toggleBtn.addEventListener('click', () => sidebar.classList.toggle('open'));
 
-        // 2. Función para generar los enlaces del menú y el contenido de las secciones
+        // Función para pintar los elementos en el orden exacto en que fueron extraídos
+        function pintarElementos(elementos) {
+            let html = "";
+            
+            elementos.forEach(el => {
+                switch (el.tipo) {
+                    case 'h1':
+                    case 'h2':
+                    case 'h3':
+                    case 'h4':
+                        html += `<${el.tipo}>${el.contenido}</${el.tipo}>`;
+                        break;
+                    case 'p':
+                        html += `<p>${el.contenido}</p>`;
+                        break;
+                    case 'ul':
+                    case 'ol':
+                        html += `<${el.tipo}>`;
+                        el.contenido.forEach(item => {
+                            html += `<li>${item}</li>`;
+                        });
+                        html += `</${el.tipo}>`;
+                        break;
+                    case 'img':
+                        html += `<img src="${el.contenido.src}" alt="${el.contenido.alt}" loading="lazy">`;
+                        break;
+                    default:
+                        break;
+                }
+            });
+            
+            return html;
+        }
+
         async function cargarGuia() {
             try {
-                // Leemos el archivo JSON externo
                 const respuesta = await fetch('guia_completa.json');
                 if (!respuesta.ok) throw new Error("No se pudo cargar el JSON");
-                
                 const datos = await respuesta.json();
                 
                 const menuLinks = document.getElementById('menu-links');
                 const contenido = document.getElementById('contenido-secciones');
 
-                // 3. Recorremos cada capítulo del JSON
                 datos.forEach((capitulo, index) => {
-                    // Generamos un ID basado en el índice
                     const idSeccion = `capitulo-${index}`;
                     
-                    // Creamos el enlace en el menú
+                    // Menú lateral
                     const enlace = document.createElement('a');
                     enlace.href = `#${idSeccion}`;
                     enlace.textContent = `${index + 1}. ${capitulo.titulo.replace("Kingdom Hearts - ", "")}`;
                     menuLinks.appendChild(enlace);
 
-                    // Creamos el HTML de la sección
+                    // Sección
                     const divSeccion = document.createElement('div');
                     divSeccion.className = 'seccion';
                     divSeccion.id = idSeccion;
 
-                    // Título
+                    // Título principal de la página
                     const h2 = document.createElement('h2');
                     h2.textContent = capitulo.titulo.replace("Kingdom Hearts - ", "");
                     divSeccion.appendChild(h2);
 
-                    // Texto (respetando los saltos de línea del JSON)
-                    const p = document.createElement('p');
-                    p.textContent = capitulo.texto;
-                    divSeccion.appendChild(p);
-
-                    // Imágenes
-                    if (capitulo.imagenes && capitulo.imagenes.length > 0) {
-                        const galeria = document.createElement('div');
-                        galeria.className = 'galeria-imagenes';
-                        
-                        capitulo.imagenes.forEach(imgData => {
-                            const img = document.createElement('img');
-                            img.src = imgData.src;
-                            img.alt = imgData.alt || "Imagen de la guía";
-                            galeria.appendChild(img);
-                        });
-                        divSeccion.appendChild(galeria);
-                    }
+                    // Pintamos el contenido en el orden REAL de la web (títulos, párrafos, imágenes...)
+                    const divContenido = document.createElement('div');
+                    divContenido.innerHTML = pintarElementos(capitulo.elementos || []);
+                    divSeccion.appendChild(divContenido);
 
                     contenido.appendChild(divSeccion);
                 });
@@ -235,11 +265,10 @@
             } catch (error) {
                 console.error("Error:", error);
                 document.getElementById('contenido-secciones').innerHTML = 
-                    "<p style='color:red; font-weight:bold;'>Error al cargar el JSON. Asegúrate de que <code>guia_completa.json</code> esté en la misma carpeta que este archivo HTML y ábrelo en Chrome o Edge.</p>";
+                    "<p style='color:red; font-weight:bold;'>Error al cargar el JSON.</p>";
             }
         }
 
-        // Ejecutamos la carga
         cargarGuia();
     </script>
 </body>
