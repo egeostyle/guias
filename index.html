@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa Kingdom Hearts</title>
+    <style>
+        :root {
+            --azul-oscuro: #0d1b2a;
+            --azul-medio: #1b263b;
+            --azul-claro: #415a77;
+            --dorado: #e0aaff;
+            --blanco: #ffffff;
+            --gris-claro: #e0e1dd;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Menú Lateral */
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            overflow-y: auto;
+            padding: 20px;
+            box-shadow: 4px 0 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+
+        #sidebar h2 {
+            color: var(--dorado);
+            text-align: center;
+            border-bottom: 2px solid var(--dorado);
+            padding-bottom: 15px;
+        }
+
+        #sidebar a {
+            display: block;
+            color: var(--gris-claro);
+            text-decoration: none;
+            padding: 12px 10px;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        #sidebar a:hover, #sidebar a.active {
+            background-color: var(--azul-claro);
+            color: var(--dorado);
+            font-weight: bold;
+        }
+
+        /* Contenido */
+        #main-content {
+            margin-left: 300px;
+            padding: 40px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--azul-oscuro), var(--azul-medio));
+            color: var(--blanco);
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .seccion {
+            background-color: var(--blanco);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--dorado);
+        }
+
+        .seccion h2 {
+            color: var(--azul-medio);
+            margin-top: 0;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .seccion p {
+            font-size: 1.05rem;
+            white-space: pre-wrap;
+        }
+
+        .galeria-imagenes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .galeria-imagenes img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border: 3px solid var(--gris-claro);
+            transition: transform 0.2s;
+        }
+
+        .galeria-imagenes img:hover {
+            transform: scale(1.03);
+        }
+
+        #menu-toggle {
+            display: none;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            background-color: var(--azul-oscuro);
+            color: var(--dorado);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 1100;
+        }
+
+        @media (max-width: 900px) {
+            #menu-toggle { display: block; }
+            #sidebar { transform: translateX(-100%); }
+            #sidebar.open { transform: translateX(0); }
+            #main-content { margin-left: 0; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <button id="menu-toggle">☰ Menú</button>
+
+    <nav id="sidebar">
+        <h2>⚔️ Kingdom Hearts</h2>
+        <div id="menu-links">
+            <!-- Los enlaces se generan aquí automáticamente -->
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <header>
+            <h1>Kingdom Hearts</h1>
+            <p>Guía Completa, 100% Walkthrough</p>
+        </header>
+        <div id="contenido-secciones">
+            <!-- Los capítulos se generan aquí automáticamente -->
+        </div>
+    </main>
+
+    <script>
+        // 1. Lógica del menú móvil
+        const toggleBtn = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        toggleBtn.addEventListener('click', () => sidebar.classList.toggle('open'));
+
+        // 2. Función para generar los enlaces del menú y el contenido de las secciones
+        async function cargarGuia() {
+            try {
+                // Leemos el archivo JSON externo
+                const respuesta = await fetch('guia_completa.json');
+                if (!respuesta.ok) throw new Error("No se pudo cargar el JSON");
+                
+                const datos = await respuesta.json();
+                
+                const menuLinks = document.getElementById('menu-links');
+                const contenido = document.getElementById('contenido-secciones');
+
+                // 3. Recorremos cada capítulo del JSON
+                datos.forEach((capitulo, index) => {
+                    // Generamos un ID basado en el índice
+                    const idSeccion = `capitulo-${index}`;
+                    
+                    // Creamos el enlace en el menú
+                    const enlace = document.createElement('a');
+                    enlace.href = `#${idSeccion}`;
+                    enlace.textContent = `${index + 1}. ${capitulo.titulo.replace("Kingdom Hearts - ", "")}`;
+                    menuLinks.appendChild(enlace);
+
+                    // Creamos el HTML de la sección
+                    const divSeccion = document.createElement('div');
+                    divSeccion.className = 'seccion';
+                    divSeccion.id = idSeccion;
+
+                    // Título
+                    const h2 = document.createElement('h2');
+                    h2.textContent = capitulo.titulo.replace("Kingdom Hearts - ", "");
+                    divSeccion.appendChild(h2);
+
+                    // Texto (respetando los saltos de línea del JSON)
+                    const p = document.createElement('p');
+                    p.textContent = capitulo.texto;
+                    divSeccion.appendChild(p);
+
+                    // Imágenes
+                    if (capitulo.imagenes && capitulo.imagenes.length > 0) {
+                        const galeria = document.createElement('div');
+                        galeria.className = 'galeria-imagenes';
+                        
+                        capitulo.imagenes.forEach(imgData => {
+                            const img = document.createElement('img');
+                            img.src = imgData.src;
+                            img.alt = imgData.alt || "Imagen de la guía";
+                            galeria.appendChild(img);
+                        });
+                        divSeccion.appendChild(galeria);
+                    }
+
+                    contenido.appendChild(divSeccion);
+                });
+
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById('contenido-secciones').innerHTML = 
+                    "<p style='color:red; font-weight:bold;'>Error al cargar el JSON. Asegúrate de que <code>guia_completa.json</code> esté en la misma carpeta que este archivo HTML y ábrelo en Chrome o Edge.</p>";
+            }
+        }
+
+        // Ejecutamos la carga
+        cargarGuia();
+    </script>
+</body>
+</html>
