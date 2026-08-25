@@ -86,10 +86,10 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
 
-        /* Contenido Principal - SIN BURBUJAS Y ANCHO COMPLETO */
+        /* Contenido Principal */
         #main-content {
             margin-left: 280px;
-            padding: 20px 40px 40px 40px; /* Menos padding para aprovechar el ancho */
+            padding: 20px 40px 40px 40px;
         }
 
         /* Cabecera alineada a la derecha y sin bordes */
@@ -111,7 +111,7 @@
             margin: 5px 0 0 0;
         }
 
-        /* Secciones sin bordes ni sombras */
+        /* Secciones */
         .seccion {
             background: transparent;
             padding: 0;
@@ -219,7 +219,7 @@
             #menu-toggle { display: block; }
             #sidebar { width: 100%; transform: translateX(-100%); }
             #sidebar.open { transform: translateX(0); }
-            #main-content { margin-left: 0; padding: 60px 15px 20px 15px; } /* Padding mínimo para aprovechar ancho */
+            #main-content { margin-left: 0; padding: 60px 15px 20px 15px; }
             header h1 { font-size: 1.8rem; }
             .seccion h2 { font-size: 1.8rem; }
         }
@@ -247,8 +247,15 @@
         const sidebar = document.getElementById('sidebar');
         toggleBtn.addEventListener('click', () => sidebar.classList.toggle('open'));
 
-        // Función para pintar los elementos
-        // Función para pintar los elementos en el orden exacto
+        // Función para convertir enlaces internos
+        function convertirEnlacesInternos(html) {
+            return html.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
+                const indiceSeccion = parseInt(num) - 1;
+                return `href="#capitulo-${indiceSeccion}"`;
+            });
+        }
+
+        // Función para pintar los elementos SIN duplicar imágenes
         function pintarElementos(elementos, tituloActual) {
             let html = "";
             elementos.forEach(el => {
@@ -264,38 +271,43 @@
                         html += `<${el.tipo}>${el.contenido}</${el.tipo}>`;
                         break;
                     case 'p':
-                        // Convertir enlaces rotos en enlaces internos
                         let pContenido = el.contenido;
-                        // Buscar enlaces que terminen en -pN.php y convertirlos
-                        pContenido = pContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
-                            // Calcular el índice de la sección (0-based)
-                            const indiceSeccion = parseInt(num) - 1;
-                            return `href="#capitulo-${indiceSeccion}"`;
-                        });
-                        html += `<p>${pContenido}</p>`;
+                        
+                        // CRUCIAL: Eliminar las etiquetas <img> que vienen escritas dentro del texto del párrafo
+                        // (Estas son las imágenes con rutas viejas que causan el duplicado)
+                        pContenido = pContenido.replace(/<img[^>]*>/g, '');
+                        
+                        // Convertir enlaces rotos en enlaces internos
+                        pContenido = convertirEnlacesInternos(pContenido);
+                        
+                        // Solo pintar el párrafo si tiene texto después de quitar las imágenes
+                        if (pContenido.trim() !== "") {
+                            html += `<p>${pContenido}</p>`;
+                        }
                         break;
                     case 'ul': case 'ol':
                         html += `<${el.tipo}>`;
                         el.contenido.forEach(item => {
                             let itemContenido = item;
-                            itemContenido = itemContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
-                                const indiceSeccion = parseInt(num) - 1;
-                                return `href="#capitulo-${indiceSeccion}"`;
-                            });
-                            html += `<li>${itemContenido}</li>`;
+                            itemContenido = itemContenido.replace(/<img[^>]*>/g, '');
+                            itemContenido = convertirEnlacesInternos(itemContenido);
+                            if (itemContenido.trim() !== "") {
+                                html += `<li>${itemContenido}</li>`;
+                            }
                         });
                         html += `</${el.tipo}>`;
                         break;
                     case 'nota':
                         let notaContenido = el.contenido;
-                        notaContenido = notaContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
-                            const indiceSeccion = parseInt(num) - 1;
-                            return `href="#capitulo-${indiceSeccion}"`;
-                        });
+                        notaContenido = notaContenido.replace(/<img[^>]*>/g, '');
+                        notaContenido = convertirEnlacesInternos(notaContenido);
                         html += `<blockquote>${notaContenido}</blockquote>`;
                         break;
                     case 'img':
-                        html += `<img src="${el.contenido.src}" alt="${el.contenido.alt}" loading="lazy">`;
+                        // Solo pintamos la imagen si tiene la ruta correcta de la carpeta local
+                        if (el.contenido.src && el.contenido.src.includes('imagenes_guia')) {
+                            html += `<img src="${el.contenido.src}" alt="${el.contenido.alt}" loading="lazy">`;
+                        }
                         break;
                     default: break;
                 }
@@ -323,7 +335,7 @@
                     enlace.addEventListener('click', () => sidebar.classList.remove('open'));
                     menuLinks.appendChild(enlace);
 
-                    // Sección sin la estrella redundante
+                    // Sección
                     const divSeccion = document.createElement('div');
                     divSeccion.className = 'seccion';
                     divSeccion.id = idSeccion;
