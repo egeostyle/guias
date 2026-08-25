@@ -248,13 +248,14 @@
         toggleBtn.addEventListener('click', () => sidebar.classList.toggle('open'));
 
         // Función para pintar los elementos
+        // Función para pintar los elementos en el orden exacto
         function pintarElementos(elementos, tituloActual) {
             let html = "";
             elementos.forEach(el => {
                 // Filtrar "Guía Kingdom Hearts" y títulos duplicados
                 if (el.tipo === 'h1' || el.tipo === 'h2') {
                     if (el.contenido === "Guía Kingdom Hearts" || el.contenido === tituloActual) {
-                        return; // Omitir este título redundante
+                        return;
                     }
                 }
 
@@ -263,16 +264,35 @@
                         html += `<${el.tipo}>${el.contenido}</${el.tipo}>`;
                         break;
                     case 'p':
-                        // El contenido ahora trae HTML interno (negritas, cursivas)
-                        html += `<p>${el.contenido}</p>`;
+                        // Convertir enlaces rotos en enlaces internos
+                        let pContenido = el.contenido;
+                        // Buscar enlaces que terminen en -pN.php y convertirlos
+                        pContenido = pContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
+                            // Calcular el índice de la sección (0-based)
+                            const indiceSeccion = parseInt(num) - 1;
+                            return `href="#capitulo-${indiceSeccion}"`;
+                        });
+                        html += `<p>${pContenido}</p>`;
                         break;
                     case 'ul': case 'ol':
                         html += `<${el.tipo}>`;
-                        el.contenido.forEach(item => { html += `<li>${item}</li>`; });
+                        el.contenido.forEach(item => {
+                            let itemContenido = item;
+                            itemContenido = itemContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
+                                const indiceSeccion = parseInt(num) - 1;
+                                return `href="#capitulo-${indiceSeccion}"`;
+                            });
+                            html += `<li>${itemContenido}</li>`;
+                        });
                         html += `</${el.tipo}>`;
                         break;
                     case 'nota':
-                        html += `<blockquote>${el.contenido}</blockquote>`;
+                        let notaContenido = el.contenido;
+                        notaContenido = notaContenido.replace(/href="([^"]*?)-p(\d+)\.php"/g, (match, url, num) => {
+                            const indiceSeccion = parseInt(num) - 1;
+                            return `href="#capitulo-${indiceSeccion}"`;
+                        });
+                        html += `<blockquote>${notaContenido}</blockquote>`;
                         break;
                     case 'img':
                         html += `<img src="${el.contenido.src}" alt="${el.contenido.alt}" loading="lazy">`;
