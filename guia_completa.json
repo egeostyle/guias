@@ -20,12 +20,33 @@
                 "contenido": "<img alt=\"Descenso al corazón\" height=\"180\" src=\"/img/juegos/kingdom-hearts/descenso-al-corazon_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/descenso-al-corazon_1.jpg",
+                    "alt": "Descenso al corazón"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al tener el control de Sora, al poco rato aparecerán unas plataformas con una Espada, un Escudo y un Bastón, teniendo que elegir una de ellas saltando a la plataforma correspondiente. La primera elección determinará las habilidades que aprenderás y la segunda afectará a las estadísticas de Sora."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Descenso al corazón\" height=\"180\" src=\"/img/juegos/kingdom-hearts/descenso-al-corazon_2.jpg\" width=\"320\"/> <img alt=\"Descenso al corazón\" height=\"180\" src=\"/img/juegos/kingdom-hearts/descenso-al-corazon_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/descenso-al-corazon_2.jpg",
+                    "alt": "Descenso al corazón"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/descenso-al-corazon_3.jpg",
+                    "alt": "Descenso al corazón"
+                }
             },
             {
                 "tipo": "p",
@@ -36,6 +57,13 @@
                 "contenido": "<img alt=\"Descenso al corazón\" height=\"180\" src=\"/img/juegos/kingdom-hearts/descenso-al-corazon_4.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/descenso-al-corazon_4.jpg",
+                    "alt": "Descenso al corazón"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Aquí aparecerán Tidus, Wakka y Selphie con los que tendrás que hablar y responderle a una serie de preguntas, y dependiendo de cual sea tu respuesta, Sora avanzará a un ritmo u a otro en lo que a niveles se refiere, algo que en Eliteguias te explicamos en la siguiente tabla."
             },
@@ -44,120 +72,19 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><h3 align=\"justify\" class=\"gtext\"><u>Preguntas</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Tidus: ¿Qué te asusta más?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">1 - Envejecer</p><p align=\"justify\" class=\"gtext\">2 - Ser diferente</p><p align=\"justify\" class=\"gtext\">3 - Ser indeciso</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Wakka: ¿Qué quieres en la vida?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">4 - Ve lo que nadie ha visto</p><p align=\"justify\" class=\"gtext\">5 - Saber cómo es el mundo</p><p align=\"justify\" class=\"gtext\">6 - Ser fuerte</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Selphie: ¿Qué es más importante para ti?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">7 - Ser el número uno</p><p align=\"justify\" class=\"gtext\">8 - La amistad</p><p align=\"justify\" class=\"gtext\">9 - Mis posesiones valiosas</p><p align=\"justify\" class=\"gtext\"> </p><h3 align=\"justify\" class=\"gtext\"><u>Resultados</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Estas son las posibles combinaciones según la evolución que quieras para Sora.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Dotado</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">147, 148, 149, 157, 167, 247, 347</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Rezagado</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">169, 267, 269, 349, 359, 367, 368, 369</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Normal</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">158, 159, 168, 248, 249, 257, 258, 259, 268, 348, 357, 348</p><p align=\"justify\" class=\"gtext\"> </p><h3 align=\"justify\" class=\"gtext\"><u>Evolución de Sora</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Dotado: Al inicio subirá más rápido de nivel, pero a partir del 41 será más lento.</p><p align=\"justify\" class=\"gtext\">-Rezagado: Al inicio subirá más lento, pero a partir del 41 será más rápido.</p><p align=\"justify\" class=\"gtext\">-Normal: Avanzará con total normalidad a lo largo del juego.</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<h3 align=\"justify\" class=\"gtext\"><u>Preguntas</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Tidus: ¿Qué te asusta más?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">1 - Envejecer</p><p align=\"justify\" class=\"gtext\">2 - Ser diferente</p><p align=\"justify\" class=\"gtext\">3 - Ser indeciso</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Wakka: ¿Qué quieres en la vida?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">4 - Ve lo que nadie ha visto</p><p align=\"justify\" class=\"gtext\">5 - Saber cómo es el mundo</p><p align=\"justify\" class=\"gtext\">6 - Ser fuerte</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Selphie: ¿Qué es más importante para ti?</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">7 - Ser el número uno</p><p align=\"justify\" class=\"gtext\">8 - La amistad</p><p align=\"justify\" class=\"gtext\">9 - Mis posesiones valiosas</p><p align=\"justify\" class=\"gtext\"> </p><h3 align=\"justify\" class=\"gtext\"><u>Resultados</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Estas son las posibles combinaciones según la evolución que quieras para Sora.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Dotado</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">147, 148, 149, 157, 167, 247, 347</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Rezagado</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">169, 267, 269, 349, 359, 367, 368, 369</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Normal</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">158, 159, 168, 248, 249, 257, 258, 259, 268, 348, 357, 348</p><p align=\"justify\" class=\"gtext\"> </p><h3 align=\"justify\" class=\"gtext\"><u>Evolución de Sora</u></h3><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Dotado: Al inicio subirá más rápido de nivel, pero a partir del 41 será más lento.</p><p align=\"justify\" class=\"gtext\">-Rezagado: Al inicio subirá más lento, pero a partir del 41 será más rápido.</p><p align=\"justify\" class=\"gtext\">-Normal: Avanzará con total normalidad a lo largo del juego.</p>"
-            },
-            {
-                "tipo": "h3",
-                "contenido": "Preguntas"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Tidus: ¿Qué te asusta más?</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "1 - Envejecer"
-            },
-            {
-                "tipo": "p",
-                "contenido": "2 - Ser diferente"
-            },
-            {
-                "tipo": "p",
-                "contenido": "3 - Ser indeciso"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Wakka: ¿Qué quieres en la vida?</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "4 - Ve lo que nadie ha visto"
-            },
-            {
-                "tipo": "p",
-                "contenido": "5 - Saber cómo es el mundo"
-            },
-            {
-                "tipo": "p",
-                "contenido": "6 - Ser fuerte"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Selphie: ¿Qué es más importante para ti?</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "7 - Ser el número uno"
-            },
-            {
-                "tipo": "p",
-                "contenido": "8 - La amistad"
-            },
-            {
-                "tipo": "p",
-                "contenido": "9 - Mis posesiones valiosas"
-            },
-            {
-                "tipo": "h3",
-                "contenido": "Resultados"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Estas son las posibles combinaciones según la evolución que quieras para Sora."
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Dotado</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "147, 148, 149, 157, 167, 247, 347"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Rezagado</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "169, 267, 269, 349, 359, 367, 368, 369"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Normal</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "158, 159, 168, 248, 249, 257, 258, 259, 268, 348, 357, 348"
-            },
-            {
-                "tipo": "h3",
-                "contenido": "Evolución de Sora"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Dotado: Al inicio subirá más rápido de nivel, pero a partir del 41 será más lento."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Rezagado: Al inicio subirá más lento, pero a partir del 41 será más rápido."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Normal: Avanzará con total normalidad a lo largo del juego."
-            },
-            {
                 "tipo": "p",
                 "contenido": "Tras tus elecciones tendrás que combatir contra un grupo de sombras y al derrotarlas aparecerá un círculo de luz, el cual restaurará tu vitalidad y puntos mágicos, así que úsalo. Acto seguido sube por la escalera que habrá aparecido y prepárate para enfrentarte al primer jefazo del juego."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Descenso al corazón\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/descenso-al-corazon_5.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/descenso-al-corazon_5.jpg",
+                    "alt": "Descenso al corazón"
+                }
             },
             {
                 "tipo": "p",
@@ -186,12 +113,33 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_1.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cuando recuperes el control tras las escenas iniciales, habla con Kairi y esta te pedirá una serie de objetos. Podrás pedirle algunas pistas extra, pero si vas a por ellos directamente con las indicaciones que te damos en Eliteguias, recibirás una “Ultrapoción” como recompensa."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_2.jpg\" width=\"320\"/> <img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_2.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_3.jpg",
+                    "alt": "Islas del Destino"
+                }
             },
             {
                 "tipo": "p",
@@ -202,24 +150,26 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_4.jpg\" width=\"320\"/> <img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_5.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_4.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_5.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "La <strong class=\"g_marron\">cuerda</strong> está junto a Tidus. Y ya por último (aunque no tienes por que seguir este orden), el <strong class=\"g_marron\">paño grande</strong> lo encontrarás dentro de la casa del árbol."
             },
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar, puedes hablar con cada uno de tus compañeros (Wakka, Selphie, Tidus, e incluso Riku) para retarles a un <a class=\"g_azul\" href=\"kingdom-hearts-p24.php\">combate de entrenamiento</a>.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar, puedes hablar con cada uno de tus compañeros (Wakka, Selphie, Tidus, e incluso Riku) para retarles a un <a class=\"g_azul\" href=\"kingdom-hearts-p24.php\">combate de entrenamiento</a>.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar, puedes hablar con cada uno de tus compañeros (Wakka, Selphie, Tidus, e incluso Riku) para retarles a un <a class=\"g_azul\" href=\"kingdom-hearts-p24.php\">combate de entrenamiento</a>."
             },
             {
                 "tipo": "p",
@@ -230,12 +180,26 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_6.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_6.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Pasa por la puerta por donde antes estaba Kairi para llegar a la Ensenada. Habla con Riku y tendrás que participar en una <a class=\"g_azul\" href=\"kingdom-hearts-p25.php\">carrera</a> contra él. No tiene importancia si ganas o pierdes, pero si ganas recibirás un objeto extra. Para más detalles consulta la correspondiente sección de la guía."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_7.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_7.jpg",
+                    "alt": "Islas del Destino"
+                }
             },
             {
                 "tipo": "p",
@@ -246,12 +210,33 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_8.jpg\" width=\"320\"/> <img alt=\"Islas del Destino\" height=\"180\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_9.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_8.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_9.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Una de las <strong class=\"g_marron\">setas</strong> está dentro de la cueva que puedes ver en la imagen que te mostramos en Eliteguias de Kairi más arriba. Sube por la izquierda, gira a la derecha y a un lado de la torre encontrarás la segunda <strong class=\"g_marron\">seta</strong>. Vuelve a la parte principal de la isla y habla con Waka para que te muestre el “Lugar secreto”, entra en él y al fondo estará la tercera <strong class=\"g_marron\">seta</strong>. Y ya que estás ahí, acércate antes (o después) a la cascada para automáticamente recoger un poco de <strong class=\"g_marron\">Agua</strong> con la botella que te dio la chica."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_10.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_10.jpg",
+                    "alt": "Islas del Destino"
+                }
             },
             {
                 "tipo": "p",
@@ -262,6 +247,13 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_11.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Los <strong class=\"g_marron\">cocos</strong>, como habrás podido imaginar, se consiguen en las palmeras y para que caigan tan solo tienes que golpear una (da igual cual), pero ten en cuenta que solo valdrán los de color amarillo y necesitas 2."
             },
@@ -270,20 +262,19 @@
                 "contenido": "<img alt=\"Islas del Destino\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/islas-del-destino_12.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/islas-del-destino_12.jpg",
+                    "alt": "Islas del Destino"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Fíjate en la imagen de arriba, en esa parte donde está el puente que lleva a la isla donde inicialmente estaba Riku en el primer día, y súbete a esa palmera que es más delgada que el resto y claramente diferenciable, una vez arriba del todo, salta a la palmera de al lado para encontrar el <strong class=\"g_marron\">huevo</strong>."
             },
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Aunque no tenga nada que ver con esto, cerca de la torre habrás visto un cofre dentro de un hueco en la montaña... para poder alcanzarlo tienes que recoger la caja cercana y colocarla justo debajo de dicho agujero para poder llegar saltando sobre ella. Dentro encontrarás un “Collar Coraza”.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Aunque no tenga nada que ver con esto, cerca de la torre habrás visto un cofre dentro de un hueco en la montaña... para poder alcanzarlo tienes que recoger la caja cercana y colocarla justo debajo de dicho agujero para poder llegar saltando sobre ella. Dentro encontrarás un “Collar Coraza”.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Aunque no tenga nada que ver con esto, cerca de la torre habrás visto un cofre dentro de un hueco en la montaña... para poder alcanzarlo tienes que recoger la caja cercana y colocarla justo debajo de dicho agujero para poder llegar saltando sobre ella. Dentro encontrarás un “Collar Coraza”."
             },
             {
                 "tipo": "p",
@@ -296,6 +287,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Lado Oscuro\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/lado-oscuro.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/lado-oscuro.jpg",
+                    "alt": "Lado Oscuro"
+                }
             },
             {
                 "tipo": "p",
@@ -324,6 +322,13 @@
                 "contenido": "<img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_1.jpg",
+                    "alt": "Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Lo primero que deberías hacer nada más llegar a Ciudad de Paso tras haber salido de las <a class=\"g_azul\" href=\"kingdom-hearts-p2.php\">Islas del Destino</a> es entrar en la tienda de accesorios, que está justo donde aparece Sora, para hablar con Cid y grabar allí la partida."
             },
@@ -336,12 +341,33 @@
                 "contenido": "<img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_2.jpg\" width=\"320\"/> <img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_3.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_2.jpg",
+                    "alt": "Ciudad de Paso"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_3.jpg",
+                    "alt": "Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Pues bien, enemigos aparte, ve al Salón de los artilugios al fondo y nada más entrar verás una pequeña escena de Donald y Gofy saliendo del hotel... lógicamente querrás ir allí, aunque por ahora todas las puertas están cerradas. Regresa al Distrito 1 (ahora también habrá sombras aquí), entra en la tienda de Cid y vuelve a salir, momento en el que aparecerá León y tendrás que combatir, aunque es bastante complicado, así que no te preocupes si no ganas (aunque si lo consigues, más adelante conseguirás un “Elixir”, así que al menos inténtalo)."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_4.jpg",
+                    "alt": "Ciudad de Paso"
+                }
             },
             {
                 "tipo": "p",
@@ -356,12 +382,33 @@
                 "contenido": "<img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_5.jpg\" width=\"320\"/> <img alt=\"Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_6.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_5.jpg",
+                    "alt": "Ciudad de Paso"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_6.jpg",
+                    "alt": "Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Dicho eso, pasa por la puerta del callejón para ir al Distrito 2 y luego vuelve al 1 (el cual es seguro) para hablar con Aeris a la entrada de la tienda de accesorios para recibir una Omnipoción. Regresa al Distrito 2 y según entras, baja las escaleras y ve por el callejón de la derecha para llegar al Distrito 3. Nada más entrar te encontrarás con Donald y Goofy, los cuales se unirán finalmente a tu grupo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Armadura\" height=\"310\" src=\"/img/juegos/kingdom-hearts/armadura.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/armadura.jpg",
+                    "alt": "Armadura"
+                }
             },
             {
                 "tipo": "p",
@@ -382,42 +429,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar con la aventura, ten en cuenta las siguientes cosas que puedes hacer a partir de ahora.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Asegúrate de configurar el hechizo Piro a tu antojo además de activar la habilidad Voltereta (por defecto no lo está) gastando 1 PH.</p><p align=\"justify\" class=\"gtext\">-Equipa el accesorio “Bravo guerrero”.</p><p align=\"justify\" class=\"gtext\">-Podrás comenzar a activar las <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marcas Trío</a>, aunque por el momento solo las azules (para más información consulta la correspondiente sección de la guía).</p><p align=\"justify\" class=\"gtext\">-Recoge las <a class=\"g_azul\" href=\"kingdom-hearts-p42.php\">Tarjetas postales</a>.</p><p align=\"justify\" class=\"gtext\">-Visita la tienda de objeto y si tienes dinero suficiente, puedes comprar algunas armas para Donald y Goofy.</p><p align=\"justify\" class=\"gtext\">-Puedes comenzar a buscar los <a class=\"g_azul\" href=\"kingdom-hearts-p40.php\">99 dálmatas</a>.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar con la aventura, ten en cuenta las siguientes cosas que puedes hacer a partir de ahora.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Asegúrate de configurar el hechizo Piro a tu antojo además de activar la habilidad Voltereta (por defecto no lo está) gastando 1 PH.</p><p align=\"justify\" class=\"gtext\">-Equipa el accesorio “Bravo guerrero”.</p><p align=\"justify\" class=\"gtext\">-Podrás comenzar a activar las <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marcas Trío</a>, aunque por el momento solo las azules (para más información consulta la correspondiente sección de la guía).</p><p align=\"justify\" class=\"gtext\">-Recoge las <a class=\"g_azul\" href=\"kingdom-hearts-p42.php\">Tarjetas postales</a>.</p><p align=\"justify\" class=\"gtext\">-Visita la tienda de objeto y si tienes dinero suficiente, puedes comprar algunas armas para Donald y Goofy.</p><p align=\"justify\" class=\"gtext\">-Puedes comenzar a buscar los <a class=\"g_azul\" href=\"kingdom-hearts-p40.php\">99 dálmatas</a>.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar con la aventura, ten en cuenta las siguientes cosas que puedes hacer a partir de ahora."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Asegúrate de configurar el hechizo Piro a tu antojo además de activar la habilidad Voltereta (por defecto no lo está) gastando 1 PH."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Equipa el accesorio “Bravo guerrero”."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Podrás comenzar a activar las <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marcas Trío</a>, aunque por el momento solo las azules (para más información consulta la correspondiente sección de la guía)."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Recoge las <a class=\"g_azul\" href=\"kingdom-hearts-p42.php\">Tarjetas postales</a>."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Visita la tienda de objeto y si tienes dinero suficiente, puedes comprar algunas armas para Donald y Goofy."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Puedes comenzar a buscar los <a class=\"g_azul\" href=\"kingdom-hearts-p40.php\">99 dálmatas</a>."
             }
         ]
     },
@@ -442,12 +453,26 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_1.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Avanza por el único camino disponible en la madriguera y en esa sala acércate al picaporte de la puerta. Luego examina la cama para empujarla y revelar un agujero en la pared. Ahora, bebe la botella azul para que los personajes se vuelvan diminutos (para volver a ser normales, bebe la roja)."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_2.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_2.jpg",
+                    "alt": "El País de las Maravillas"
+                }
             },
             {
                 "tipo": "p",
@@ -458,12 +483,26 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_3.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_3.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Sal por la puerta de la izquierda para llegar al Bosque de lotos y ver automáticamente una escena con el Gato Risón. Al terminar examina esa flor amarilla y dale una poción seleccionándola en el menú como si fuera un miembro del grupo, con esto te volverás grande."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_4.jpg",
+                    "alt": "El País de las Maravillas"
+                }
             },
             {
                 "tipo": "p",
@@ -474,12 +513,26 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_5.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_5.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ahora, volviendo al punto donde entraste a esta zona para tomar como referencia, un poco más adelante a la derecha hay un hueco, así que ve ahí y abre una pequeña caja para conseguir la <strong class=\"g_marron\">Huella delatora</strong>. Entonces sube por las setas y árboles / hojas hasta la salida que te indicamos en Eliteguias por la imagen de arriba, por donde tienes que pasar ahora."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_6.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_6.jpg",
+                    "alt": "El País de las Maravillas"
+                }
             },
             {
                 "tipo": "p",
@@ -490,12 +543,33 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_7.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_7.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Vuelve al Bosque de lotos y al fondo de éste, súbete a la hoja indicada para encontrar una caja con la <span class=\"g_marron\"><strong>Espina delatora</strong></span>."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_8.jpg\" width=\"320\"/> <img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_9.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_8.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_9.jpg",
+                    "alt": "El País de las Maravillas"
+                }
             },
             {
                 "tipo": "p",
@@ -506,12 +580,26 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_10.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_10.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cuando tengas todas las pruebas, vuelve junto a la reina y habla con uno de los guardias para decirle que ya puede comenzar el juicio. La reina habrá aportado su propia caja con la prueba y tu objetivo será seleccionar una de las cajas, esperando tener suerte para no elegir la de la reina... Con una sola prueba será suficiente, pero la razón de haber conseguido las cuatro es tener más posibilidades de no elegir la de la reina. Vale, pero ¿qué pasa si eliges la caja de la reina? Que Donald y Goofy no lucharán contigo contra el jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Reina de Corazones\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/reina-de-corazones.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/reina-de-corazones.jpg",
+                    "alt": "Reina de Corazones"
+                }
             },
             {
                 "tipo": "p",
@@ -522,12 +610,26 @@
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_11.jpg",
+                    "alt": "El País de las Maravillas"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Regresa al Bosque de loto y pasa por la puerta al fondo para llegar al Jardín del té, aunque antes tendrás que enfrentarte a varios sincorazón, incluyendo un grandullón al que tendrás que atacar por la espalda. En el jardín tienes que pasar por la puerta de la izquierda para ir al Cuarto misterioso."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"El País de las Maravillas\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/el-pais-de-las-maravillas_12.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/el-pais-de-las-maravillas_12.jpg",
+                    "alt": "El País de las Maravillas"
+                }
             },
             {
                 "tipo": "p",
@@ -540,6 +642,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Prestidigitador\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/prestidigitador.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/prestidigitador.jpg",
+                    "alt": "Prestidigitador"
+                }
             },
             {
                 "tipo": "p",
@@ -568,6 +677,13 @@
                 "contenido": "<img alt=\"Coliseo del Olimpo\" height=\"310\" src=\"/img/juegos/kingdom-hearts/coliseo.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/coliseo.jpg",
+                    "alt": "Coliseo del Olimpo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Podrás ir al Coliseo en cualquier momento a partir de conseguir la Nave Gumi, pero para participar en cada uno de los torneos necesitas haber avanzado lo suficiente en la historia y/o realizar ciertas acciones. A continuación en Eliteguias ya te indicamos todo lo necesario para cada uno."
             },
@@ -584,18 +700,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Más adelante tendrás disponibles dos \"torneos\" adicionales, el <a class=\"g_azul\" href=\"kingdom-hearts-p48.php\">Combate de oro</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p47.php\">Combate de platino</a>, que tienen que ver con 2 de los jefazos secretos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Más adelante tendrás disponibles dos \"torneos\" adicionales, el <a class=\"g_azul\" href=\"kingdom-hearts-p48.php\">Combate de oro</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p47.php\">Combate de platino</a>, que tienen que ver con 2 de los jefazos secretos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Más adelante tendrás disponibles dos \"torneos\" adicionales, el <a class=\"g_azul\" href=\"kingdom-hearts-p48.php\">Combate de oro</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p47.php\">Combate de platino</a>, que tienen que ver con 2 de los jefazos secretos."
             }
         ]
     },
@@ -620,6 +724,13 @@
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_1.jpg",
+                    "alt": "Selva Profunda"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Nada más llegar a este mundo, Sora estará solo y tendrá que enfrentarse a un leopardo llamado Sabor. Tanto si derrotas al animal o si estás apunto de morir, Tarzán aparecerá igualmente y se unirá a tu grupo, entrando ya de paso de manera oficial en la Selva."
             },
@@ -628,12 +739,33 @@
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_2.jpg\" width=\"320\"/> <img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_3.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_2.jpg",
+                    "alt": "Selva Profunda"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_3.jpg",
+                    "alt": "Selva Profunda"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cuando recuperes el control, por ahora no tienes más opciones que llevar a Tarzán contigo, en cualquier caso, salta a la redecilla de abajo y luego déjate caer por un borde al bosque (no te preocupes que no pasará nada). Antes de nada, usa el Círculo de luz para grabar la partida. Entonces métete en el árbol de al lado y prepárate para deslizarte por él; es bastante sencillo y solo tendrás que prestar atención para dar un par de saltos cuando aparezcan las ramas por el medio."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_4.jpg",
+                    "alt": "Selva Profunda"
+                }
             },
             {
                 "tipo": "p",
@@ -676,6 +808,20 @@
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_5.jpg\" width=\"320\"/> <img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_6.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_5.jpg",
+                    "alt": "Selva Profunda"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_6.jpg",
+                    "alt": "Selva Profunda"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Dirígete a la zona de los Hipopótamos (según sales de la tienda, a la izquierda) y ve saltando por ellos hasta el fondo en donde tienes que trepar por la liana. Una vez arriba, te encontrarás con Kerchak."
             },
@@ -686,6 +832,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" src=\"/img/juegos/kingdom-hearts/selva-profunda_7.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_7.jpg",
+                    "alt": "Selva Profunda"
+                }
             },
             {
                 "tipo": "p",
@@ -700,12 +853,26 @@
                 "contenido": "<img alt=\"Sabor\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/sabor.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/sabor.jpg",
+                    "alt": "Sabor"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tras haber liberado a todos los gorilas, regresa al campamento para hablar con Jane. Entonces dirígete al Bosque de bambúes para un último y definitivo enfrentamiento contra Sabor, el cual esta vez será algo más fuerte, pero la táctica a seguir será la misma."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/selva-profunda_8.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_8.jpg",
+                    "alt": "Selva Profunda"
+                }
             },
             {
                 "tipo": "p",
@@ -716,12 +883,26 @@
                 "contenido": "<img alt=\"Acechador\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/acechador.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/acechador.jpg",
+                    "alt": "Acechador"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Primero Clayton luchara junto a varios monos sombra, los cuales prácticamente no tienen importancia, tu sólo céntrate en atacar a Clayton hasta derribarlo. Lo importante viene a continuación cuando aparece el Acechador. Inicialmente será invisible, pero sabrás claramente donde está por que Clayton estará a lomos de él. En cualquier caso, primero céntrate en atacar al lagarto hasta que tire a Clayton al suelo y entonces céntrate en el humano. Sería recomendable que para este combate llevases contigo a Tarzán (junto con Donald)."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Selva Profunda\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/selva-profunda_9.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/selva-profunda_9.jpg",
+                    "alt": "Selva Profunda"
+                }
             },
             {
                 "tipo": "p",
@@ -734,18 +915,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar, ahora que ya has sellado la cerradura, podrás participar en los minijuegos de <a class=\"g_azul\" href=\"kingdom-hearts-p27.php\">Carrera de lianas</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p26.php\">Tobogán selvático</a> aquí en la Selva Profunda.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar, ahora que ya has sellado la cerradura, podrás participar en los minijuegos de <a class=\"g_azul\" href=\"kingdom-hearts-p27.php\">Carrera de lianas</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p26.php\">Tobogán selvático</a> aquí en la Selva Profunda.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar, ahora que ya has sellado la cerradura, podrás participar en los minijuegos de <a class=\"g_azul\" href=\"kingdom-hearts-p27.php\">Carrera de lianas</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p26.php\">Tobogán selvático</a> aquí en la Selva Profunda."
             }
         ]
     },
@@ -770,12 +939,40 @@
                 "contenido": "<img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_7.jpg\" width=\"320\"/> <img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_8.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_7.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_8.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Para empezar, ve al Distrito 2 y entra en el Hotel. Una vez allí, pasa por la puerta que da al Cuarto verde y sal por la siguiente al Callejón. Déjate caer a la parte de abajo y tendrás que activar el <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">Trío rojo</a> junto a esa verja, para desbloquear así el acceso al Canal oculto. Allí dentro te encontrarás con Aerith y León, así que habla con éste para que te entregue “Brillo de tierra”."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_9.jpg\" width=\"320\"/> <img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_10.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_9.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_10.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
             },
             {
                 "tipo": "p",
@@ -786,6 +983,13 @@
                 "contenido": "<img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_11.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al terminar la escena, habla una vez más con Merlín y luego con el Hada Madrina, la cual te dará la invocación de <a class=\"g_azul\" href=\"kingdom-hearts-p34.php\">Simba</a>, explicándote de paso cómo utilizarla."
             },
@@ -794,20 +998,15 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar, puedes examinar el “Libro antiguo” en esta misma casa para ir al mundo opcional <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> (en Eliteguias ya te damos más información en su correspondiente sección de la guía).</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar, puedes examinar el “Libro antiguo” en esta misma casa para ir al mundo opcional <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> (en Eliteguias ya te damos más información en su correspondiente sección de la guía).</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar, puedes examinar el “Libro antiguo” en esta misma casa para ir al mundo opcional <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> (en Eliteguias ya te damos más información en su correspondiente sección de la guía)."
-            },
-            {
                 "tipo": "p",
                 "contenido": "<img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_12.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_12.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
             },
             {
                 "tipo": "p",
@@ -818,12 +1017,33 @@
                 "contenido": "<img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_13.jpg\" width=\"320\"/> <img alt=\"Segunda visita a la Ciudad de Paso\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-paso_14.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_13.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-paso_14.jpg",
+                    "alt": "Segunda visita a la Ciudad de Paso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ve al Distrito 2 y entra en el Salón de los artilugios, que está pasando el Hotel, tal y como indica la imagen de arriba. Entonces sal por la puerta del lado opuesto para ir a otra zona del Distrito 2. Sube por la escalerilla que está justo al lado de la puerta y activa ese <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">Trío rojo</a> para romper los tablones. Entonces tira 3 veces de la cuerda. Entonces baja hasta la plaza para enfrentare a un jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Armadura Inversa\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/armadura-inversa.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/armadura-inversa.jpg",
+                    "alt": "Armadura Inversa"
+                }
             },
             {
                 "tipo": "p",
@@ -838,28 +1058,12 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">A partir de ahora ya podrás viajar de un mundo a otro saltándote la sección del mini-juego de la nave si quieres, pero solo a los lugares que ya hayas visitado con anterioridad.</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">A partir de ahora ya podrás viajar de un mundo a otro saltándote la sección del mini-juego de la nave si quieres, pero solo a los lugares que ya hayas visitado con anterioridad.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "A partir de ahora ya podrás viajar de un mundo a otro saltándote la sección del mini-juego de la nave si quieres, pero solo a los lugares que ya hayas visitado con anterioridad."
-            },
-            {
                 "tipo": "p",
                 "contenido": "Nuestro siguiente destino será el mundo de <a class=\"g_azul\" href=\"kingdom-hearts-p10.php\">Agrabah</a>."
             },
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar, en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> tendrás disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p9.php\">Copa Fil</a>.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar, en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> tendrás disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p9.php\">Copa Fil</a>.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar, en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> tendrás disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p9.php\">Copa Fil</a>."
             }
         ]
     },
@@ -884,12 +1088,33 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" src=\"/img/juegos/kingdom-hearts/agrabah_1.jpg\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_1.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al recuperar el control, avanza hasta la Calle principal y ve por la izquierda para encontrarte con Yasmín y Yafar. Prepárate, por que en cuanto recuperes el control tras la escena, tendrás que luchar contra un grupo de bandidos."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_2.jpg\" width=\"320\"/> <img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_2.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_3.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
             },
             {
                 "tipo": "p",
@@ -900,12 +1125,26 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_4.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_4.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ve a la calle principal y sal al desierto, en donde te encontrarás con la alfombra, así que habla con ella para que te lleve a donde está Aladdín. Elimina a los enemigos y luego verás una escena en la que aparece el Genio y al final, Aladdín se unirá a tu grupo y podrás sustituirlo por Donald o Goofy."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_5.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_5.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
             },
             {
                 "tipo": "p",
@@ -916,6 +1155,20 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_6.jpg\" width=\"320\"/> <img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_7.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_6.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_7.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Primero utiliza la llave en esa cerradura para abrir una puerta y luego ve saltando por esos dos toldos de madera, pero hazlo rápido antes de que se cierren y caigas al suelo. Una vez al otro lado, sigue subiendo y pasa por la puerta para ir a la Calle principal. Salta por los toldos hasta el punto indicado por la imagen de arriba a la derecha y sube por el poste a la Casa de Aladdín."
             },
@@ -924,12 +1177,26 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/agrabah_8.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_8.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tras la breve escena, aparta un pequeño mueble en la pared y usa la llave en la cerradura para abrir una puerta. Mira hacia el agujero en la pared y baja por el poste de la izquierda para ir a la Calle principal. Gira a la derecha y ve por los toldos hasta esa puerta indicada por la imagen que te lleva al Bazar."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/agrabah_9.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_9.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
             },
             {
                 "tipo": "p",
@@ -944,6 +1211,13 @@
                 "contenido": "<img alt=\"Ciempiés\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ciempies.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciempies.jpg",
+                    "alt": "Ciempiés"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "El procedimiento es muy sencillo, aunque bastante tedioso, ya que primero tienes que eliminar a las numerosas tinajas (habrá más que las iniciales) y luego ya podrás centrarte en la cabeza y cola del Ciempiés."
             },
@@ -954,6 +1228,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Cabeza de Tigre\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/cabeza-de-tigre.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/cabeza-de-tigre.jpg",
+                    "alt": "Cabeza de Tigre"
+                }
             },
             {
                 "tipo": "p",
@@ -972,6 +1253,13 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/agrabah_10.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_10.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Sube por las escaleras que tienes justo delante y baja por las del otro lado para ir a la Sala oculta. Sal a tierra firme, apunta a la columna mostrada en la imagen de arriba y lanza la magia Piro para destrozar una parte de esta y desbloquear un camino en otra sala."
             },
@@ -980,12 +1268,26 @@
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/agrabah_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_11.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Regresa a la Sala silenciosa, sube los escalones pequeños y luego los grandes a la derecha para ir a la Sala principal. Sube las escaleras, salta la pared de delante y pasa por la puerta a la derecha para ir a la Sala del foso. Salta el agujero evitando los chorros y pasa por la puerta para ir a la Sala del tesoro. Utiliza el círculo para descansar y grabar la partida y pasa por la puerta para ir a la Sala de la lámpara, en donde te enfrentarás a un jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Yafar y Genio\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/yafar_genio.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/yafar_genio.jpg",
+                    "alt": "Yafar y Genio"
+                }
             },
             {
                 "tipo": "p",
@@ -1000,12 +1302,26 @@
                 "contenido": "<img alt=\"Jafar Genio\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/jafar-genio.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/jafar-genio.jpg",
+                    "alt": "Jafar Genio"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al contrario de lo que pueda parecer, es una pelea bastante sencilla... se trata de pasar por completo de Jafar-Genio y centrarte en perseguir a Iago que lleva la lámpara mágica de un lado a otro. No parará quieto en ningún momento (al menos no por mucho rato), pero podrás alcanzarle fácilmente con ataques con salto. Y como no hay posibilidad de que puedas caer a la lava, que sería la principal dificultad del combate... pues será pan comido."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Agrabah, Ciudad del desierto\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/agrabah_12.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/agrabah_12.jpg",
+                    "alt": "Agrabah, Ciudad del desierto"
+                }
             },
             {
                 "tipo": "p",
@@ -1034,12 +1350,33 @@
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/monstruo_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_1.jpg",
+                    "alt": "Monstruo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tras completar el mundo de <a class=\"g_azul\" href=\"kingdom-hearts-p10.php\">Agrabah</a>, móntate en la nave Gumi y como destino selecciona el punto de más al Este, el que tiene Nivel 5 de batalla. Comienza el viaje participando en el minijuego de la Nave Gumi como de costumbre, y en cierto momento aparecerá una enorme ballena que te engullirá, llegando así a este nuevo mundo, un pequeño laberinto en el que como siempre en Eliteguias, te guiaremos paso a paso."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/monstruo_2.jpg\" width=\"320\"/> <img alt=\"Monstruo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/monstruo_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_2.jpg",
+                    "alt": "Monstruo"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_3.jpg",
+                    "alt": "Monstruo"
+                }
             },
             {
                 "tipo": "p",
@@ -1050,12 +1387,26 @@
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/monstruo_4.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_4.jpg",
+                    "alt": "Monstruo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Toma la salida de la parte elevada para ir a Vientre 2. Pasa por la puerta del fondo hasta Vientre 3. Estando en la parte elevada, pasa por la puerta de la izquierda para ir al Vientre 2."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/monstruo_5.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_5.jpg",
+                    "alt": "Monstruo"
+                }
             },
             {
                 "tipo": "p",
@@ -1070,12 +1421,26 @@
                 "contenido": "<img alt=\"Jaula Parásita\" height=\"310\" src=\"/img/juegos/kingdom-hearts/jaula-parasita.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/jaula-parasita.jpg",
+                    "alt": "Jaula Parásita"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Para este combate con la Jaula Parásitca contarás con la ayuda de Riku. En cualquier caso, el punto débil es su cabeza pequeña de la parte superior, la cual está demasiado alta como para alcanzarla con la espada. Tienes dos opciones... una es atacarle a la parte inferior (pero nunca por atrás) y alejarte mientras balancea los brazos, entonces aprovecha para gastar todos tus PM para lanzarle la magia de fuego al punto débil... y la otra es situarte siempre cerca de la jaula por su parte derecha, ya que así con un poco de suerte no te alcanzará con sus brazos y podrás atacarle con tu espada sin problemas."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/monstruo_6.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_6.jpg",
+                    "alt": "Monstruo"
+                }
             },
             {
                 "tipo": "p",
@@ -1086,12 +1451,33 @@
                 "contenido": "<img alt=\"Monstruo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/monstruo_7.jpg\" width=\"320\"/> <img alt=\"Monstruo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/monstruo_8.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_7.jpg",
+                    "alt": "Monstruo"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/monstruo_8.jpg",
+                    "alt": "Monstruo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ahora, ve a por los cofres de la zona, pero sobre todo al que te indicamos en Eliteguias con la imagen de arriba, para conseguir “Brillo de agua”. Ahora ve a por la <strong>Hoja arrancada 2</strong> en el “Vientre 6” (pasa por los vientres 1, 2, 3, 2, 5). Cuando estés listo, regresa a la Boca y salta a las tablas pegadas a la pared, para desde allí ir a la salida superior que te lleva a la Garganta. Entonces ve ascendiendo por las plataformas hasta encontrarte con el jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Jaula Parásita\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/jaula-parasita_2.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/jaula-parasita_2.jpg",
+                    "alt": "Jaula Parásita"
+                }
             },
             {
                 "tipo": "p",
@@ -1104,34 +1490,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">En este mismo momento tienes disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p12.php\">Copa Pegaso</a> en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a>, así que ve a completarla ahora si quieres.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Al terminar, vamos a ir a Ciudad de Paso, en donde hay unas cuantas cosas nuevas por hacer.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">La primera parada será la Tienda de accesorios. Allí dentro activa la <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marca trío verde</a> del suelo para desbloquear el acceso a la Orfebrería, un lugar donde podrás crear nuevos objetos, siempre que tengas los materiales necesarios.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Sal de la tienda de accesorios, gira a la izquierda y sube las escaleras para entrar en la Casa de Geppetto ahí mismo. Este te dará algunos planos nuevos para la Nave Gumi.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">La siguiente parada será el Estudio del mago (al que ya fuiste durante la <a class=\"g_azul\" href=\"kingdom-hearts-p8.php\">segunda visita a Ciudad del Paso</a>) y si has estado siguiendo las indicaciones que te dimos en Eliteguias hasta ahora, al hablar con Merlín este te dará la llave-espada “Examinadora”. ¿Te acuerdas del “Brillo de agua” que recogiste hace un rato? Pues si se lo entregas al Hada madrina, esta te dará la invocación <a class=\"g_azul\" href=\"kingdom-hearts-p36.php\">Dumbo</a>.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">En este mismo momento tienes disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p12.php\">Copa Pegaso</a> en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a>, así que ve a completarla ahora si quieres.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Al terminar, vamos a ir a Ciudad de Paso, en donde hay unas cuantas cosas nuevas por hacer.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">La primera parada será la Tienda de accesorios. Allí dentro activa la <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marca trío verde</a> del suelo para desbloquear el acceso a la Orfebrería, un lugar donde podrás crear nuevos objetos, siempre que tengas los materiales necesarios.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">Sal de la tienda de accesorios, gira a la izquierda y sube las escaleras para entrar en la Casa de Geppetto ahí mismo. Este te dará algunos planos nuevos para la Nave Gumi.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">La siguiente parada será el Estudio del mago (al que ya fuiste durante la <a class=\"g_azul\" href=\"kingdom-hearts-p8.php\">segunda visita a Ciudad del Paso</a>) y si has estado siguiendo las indicaciones que te dimos en Eliteguias hasta ahora, al hablar con Merlín este te dará la llave-espada “Examinadora”. ¿Te acuerdas del “Brillo de agua” que recogiste hace un rato? Pues si se lo entregas al Hada madrina, esta te dará la invocación <a class=\"g_azul\" href=\"kingdom-hearts-p36.php\">Dumbo</a>.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "En este mismo momento tienes disponible la <a class=\"g_azul\" href=\"kingdom-hearts-p12.php\">Copa Pegaso</a> en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a>, así que ve a completarla ahora si quieres."
-            },
-            {
-                "tipo": "p",
-                "contenido": "Al terminar, vamos a ir a Ciudad de Paso, en donde hay unas cuantas cosas nuevas por hacer."
-            },
-            {
-                "tipo": "p",
-                "contenido": "La primera parada será la Tienda de accesorios. Allí dentro activa la <a class=\"g_azul\" href=\"kingdom-hearts-p44.php\">marca trío verde</a> del suelo para desbloquear el acceso a la Orfebrería, un lugar donde podrás crear nuevos objetos, siempre que tengas los materiales necesarios."
-            },
-            {
-                "tipo": "p",
-                "contenido": "Sal de la tienda de accesorios, gira a la izquierda y sube las escaleras para entrar en la Casa de Geppetto ahí mismo. Este te dará algunos planos nuevos para la Nave Gumi."
-            },
-            {
-                "tipo": "p",
-                "contenido": "La siguiente parada será el Estudio del mago (al que ya fuiste durante la <a class=\"g_azul\" href=\"kingdom-hearts-p8.php\">segunda visita a Ciudad del Paso</a>) y si has estado siguiendo las indicaciones que te dimos en Eliteguias hasta ahora, al hablar con Merlín este te dará la llave-espada “Examinadora”. ¿Te acuerdas del “Brillo de agua” que recogiste hace un rato? Pues si se lo entregas al Hada madrina, esta te dará la invocación <a class=\"g_azul\" href=\"kingdom-hearts-p36.php\">Dumbo</a>."
             }
         ]
     },
@@ -1156,12 +1514,33 @@
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_1.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al recuperar el control, avanza hasta la Plaza de la guillotina y los fantasmas junto a la fuente no te harán nada, así que pasa de ellos. Sube por las escaleras y te encontrarás con el Alcalde y con Jack."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_2.jpg\" width=\"320\"/> <img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_2.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_3.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
             },
             {
                 "tipo": "p",
@@ -1172,12 +1551,26 @@
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_4.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_4.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ahora tienes que darle ese objeto a Finkelstein en el laboratorio y una vez más, regresa al cementerio para eliminar al nuevo grupo de sincorazón. Entonces, examina la lápida del fondo para ir a la zona del Cementerio público."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_5.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_5.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
             },
             {
                 "tipo": "p",
@@ -1188,12 +1581,33 @@
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_6.jpg\" width=\"320\"/> <img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_7.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_6.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_7.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Sal de aquí hasta la Plaza de la guillotina, en donde verás una breve escena. Al terminar, regresa al Cementerio y verás otra escena más, entonces regresa al Cementerio público, esta vez para tomar el otro camino cerca de la calabaza y llegar a la Colina de la luna. Localiza esa plataforma metálica y examínala, acto seguido usa en ella la magia Piro para activarla.... esto básicamente es un atajo a la zona del Cementerio con ataúd. Dicho eso, en la Colina de la luna, examina la lápida (imagen de la derecha) para crear un camino hacia la zona Puente colgante, que es a donde tienes que ir ahora."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_8.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_8.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
             },
             {
                 "tipo": "p",
@@ -1204,12 +1618,26 @@
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_9.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_9.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cruza el puente colgante de madera y luego entra en la propia mansión. Activa la plataforma metálica con Fuego y súbete en ella. A partir de ahora tienes que ascender por la mansión mientras te enfrentas a los enemigos, siendo la dificultad el que puedas caerte, aunque si eso pasa no te preocupes, tan solo tienes que buscar una bañera y meterte en ella para volver a subir (hasta la entrada). En cualquier caso, el objetivo es llegar al Cuarto de juegos para enfrentarte a un jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Rock, Shock y Barrel\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/rock-shock-barrel.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/rock-shock-barrel.jpg",
+                    "alt": "Rock, Shock y Barrel"
+                }
             },
             {
                 "tipo": "p",
@@ -1220,12 +1648,33 @@
                 "contenido": "<img alt=\"Ciudad de Halloween\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_10.jpg\" width=\"320\"/> <img alt=\"Ciudad de Halloween\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ciudad-de-halloween_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_10.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ciudad-de-halloween_11.jpg",
+                    "alt": "Ciudad de Halloween"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tras la pelea usa el Círculo de luz para recuperarte y luego acciona la palanca, pero a base de golpes, no examinándola. Ahora sal de aquí y tendrás que llegar a la entrada de esta zona y lo más fácil es dejarse caer directamente y luego usar la bañera. Desde la entrada tírate por donde te indicamos en Eliteguias con la imagen de arriba a la izquierda y luego pasa por la puerta verde (imagen de la derecha) para ir a la Sala de torturas y enfrentarte a un jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Oogie Boogie\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/oogie-boogie.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/oogie-boogie.jpg",
+                    "alt": "Oogie Boogie"
+                }
             },
             {
                 "tipo": "p",
@@ -1238,6 +1687,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Oogie Boogie\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/oogie-boogie_2.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/oogie-boogie_2.jpg",
+                    "alt": "Oogie Boogie"
+                }
             },
             {
                 "tipo": "p",
@@ -1270,6 +1726,13 @@
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_1.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Lo primero que tienes que hacer al llegar a esta zona es aprender a nadar, así que presta atención a las indicaciones que te dan en pantalla (descender con Cuadrado y ascender con Círculo) para acercarte al pez Flotsam, algo que puedes facilitar fijando la vista en él."
             },
@@ -1278,12 +1741,33 @@
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_2.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_2.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "A esto le seguirá un pequeño combate contra unos Neones marinos, así que sigue el mismo consejo de antes, el Fijar blanco será tu mejor aliado. Tras el combate golpea la concha para que salgan tus compañeros, revelando también un Círculo de luz. Entonces, Ariel se unirá a tu grupo y podrás llevarla como compañera."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_3.jpg\" width=\"320\"/> <img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_3.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_4.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
             },
             {
                 "tipo": "p",
@@ -1298,12 +1782,33 @@
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_5.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_5.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Sal de ahí y en el Valle Submarino verás a un delfín, así que acércate a él cuando no haya enemigos cerca y agárrate a él (con la opción de “asirse”), estate así un rato y luego suéltate, ahora el delfín te seguirá, así que ve de vuelta al Gran mar de Atlántica."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_6.jpg\" width=\"320\"/> <img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_7.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_6.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_7.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
             },
             {
                 "tipo": "p",
@@ -1314,6 +1819,13 @@
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" src=\"/img/juegos/kingdom-hearts/atlantica_8.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_8.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ahora ve por el pasaje que está en la parte baja por el lado opuesto a por donde entraste para ir al Valle submarino. Estarás en un punto no accesible antes, en el que puedes golpear ese punto que te mostramos en Eliteguias con la imagen y que sirve como atajo al Barco hundido. Usa dicho atajo y abre ese cofre para conseguir un “Orichalcum”."
             },
@@ -1322,12 +1834,26 @@
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/atlantica_9.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_9.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ve a la Gruta de Ariel en el Valle submarino para colocar el Cristal real en ese punto indicado de la pared (aunque ya que estás aquí, no te olvides de recoger una de las <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Hojas arrancadas</a>). Luego verás una escena en la que Ariel dejará el grupo (temporalmente), así que ve al Aposento del rey para ver una escena, tras la cual se volverá a unir a ti."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Atlántica, Reino oceánico\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/atlantica_10.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/atlantica_10.jpg",
+                    "alt": "Atlántica, Reino oceánico"
+                }
             },
             {
                 "tipo": "p",
@@ -1342,6 +1868,13 @@
                 "contenido": "<img alt=\"Úrsula\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ursula.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ursula.jpg",
+                    "alt": "Úrsula"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Por poder puedes atacar a Úrsula cuerpo a cuerpo, pero eso no es es muy recomendable... tienes que centrarte en atacar al caldero con magia de Fuego, centrando primero tu vista en él. Tras los suficientes golpes, este emitirá un fuerte brillo que dejará aturdida a Úrsula, momento que tienes que aprovecharle tantas veces como puedas antes de que recupere el sentido. Si se te acaban los PM, puedes usar tus propios éter o bien atacar a Flotsam y Jetsam y deberían soltar algo. En cualquier caso, a estos dos no podrás eliminarlos, solo aturdirlos antes de que Úrsula los reanime."
             },
@@ -1352,6 +1885,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Úrsula\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ursula_2.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ursula_2.jpg",
+                    "alt": "Úrsula"
+                }
             },
             {
                 "tipo": "p",
@@ -1380,12 +1920,33 @@
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_1.jpg\" width=\"320\"/> <img alt=\"País de Nunca Jamás\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_2.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_1.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_2.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tienes que viajar desde <a class=\"g_azul\" href=\"kingdom-hearts-p13.php\">Ciudad de Halloween</a> hasta <a class=\"g_azul\" href=\"kingdom-hearts-p14.php\">Atlántica</a>, o viceversa, y a mitad del viaje verás una escena en la que te ataca un barco pirata y llegas a este nuevo mundo. Tras las escenas iniciales ya conocerás a Piterpan y a Campanilla, que se unirán a tu grupo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_3.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
             },
             {
                 "tipo": "p",
@@ -1396,12 +1957,26 @@
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_4.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_4.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Puedes desbloquear la puerta queda a la Bodega (junto a la escalerilla y que desde el otro lado estaba bloqueada), pero para continuar, tienes que subir por la apertura del techo en la cocina para llegar a uno de los Camarotes."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_5.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_5.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
             },
             {
                 "tipo": "p",
@@ -1412,12 +1987,26 @@
                 "contenido": "<img alt=\"Sombra de Sora\" height=\"310\" src=\"/img/juegos/kingdom-hearts/sombra-de-sora.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/sombra-de-sora.jpg",
+                    "alt": "Sombra de Sora"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "A la Sombra de Sora ya te habías estado enfrentando en ciertas ocasiones hasta ahora, aunque tan solo versiones muy débiles y en esta ocasión tendrá mucha más vitalidad. Sois 3 contra 1, pero no te confíes por eso y espera a que te lance un ataque para esquivar y luego lanzar los tuyos, sino te alcanzará fácilmente. Los principales problemas de esta pelea es que cuando le hayas quitado cierta cantidad de vida, por un lado comenzará a crear duplicados y aunque estos caerán con un solo golpe (es recomendable usar Electro para agilizar el proceso), te causarán confusión... y por otro lado, cada X tiempo desaparecerá y aparecerá cerca de ti, momento en el que se romperá el centrar la vista, así que mientras dure esa fase, rueda de un lado a otro sin parar hasta que puedas volver a centrar la vista... y repite el mismo procedimiento de antes hasta acabar con él."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_6.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_6.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
             },
             {
                 "tipo": "p",
@@ -1436,6 +2025,13 @@
                 "contenido": "<img alt=\"Capitán Garfio\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/capitan-garfio.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/capitan-garfio.jpg",
+                    "alt": "Capitán Garfio"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Se trata del Capitán Garfio y aunque no sea del todo fácil, realmente no requiere ninguna estrategia en especial... la batalla será muy parecida a la de la Sombra de Sora, y en este caso la “particularidad” será mucho más cómoda, ya que se trata de varios barcos voladores que lo acompañarán y a los cuales podrás evitar por completo para centrarte tan solo en el Capitán Garfio (la razón de esto es que volverán a aparecer igualmente aunque los elimines)."
             },
@@ -1446,6 +2042,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"País de Nunca Jamás\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/pais-de-nunca-jamas_7.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pais-de-nunca-jamas_7.jpg",
+                    "alt": "País de Nunca Jamás"
+                }
             },
             {
                 "tipo": "p",
@@ -1486,6 +2089,13 @@
                 "contenido": "<img alt=\"Cid\" height=\"180\" src=\"/img/juegos/kingdom-hearts/cid.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/cid.jpg",
+                    "alt": "Cid"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cuando estés listo, ve a la tienda de accesorios en el distrito 1 de Ciudad de Paso y habla con Cid, pero no dentro de la tienda, sino por la parte trasera en el exterior, para que este instale las dos “1/2 Gumi guías” que has conseguido hasta ahora. Al terminar esto, recibirás “Gumi Camaleón”."
             },
@@ -1516,6 +2126,13 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_1.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Al recuperar el control, usa el Círculo de luz que tienes justo delante y luego ve saltando por las plataformas hasta que veas una escena en la que Riku te quitará la llave espada, dejándote con una de madera, luego tus compañeros se habrán marchado y Sora se quedará solo con Bestia."
             },
@@ -1524,20 +2141,15 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Esta espada de madera es muy cutre, así que fija la vista en los enemigos y lanza a Bestia contra ellos, una táctica que ya conoces de sobra, pero que ahora te será muy útil.</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Esta espada de madera es muy cutre, así que fija la vista en los enemigos y lanza a Bestia contra ellos, una táctica que ya conoces de sobra, pero que ahora te será muy útil.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Esta espada de madera es muy cutre, así que fija la vista en los enemigos y lanza a Bestia contra ellos, una táctica que ya conoces de sobra, pero que ahora te será muy útil."
-            },
-            {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_2.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_2.jpg",
+                    "alt": "Bastión Hueco"
+                }
             },
             {
                 "tipo": "p",
@@ -1546,6 +2158,20 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_3.jpg\" width=\"320\"/> <img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_3.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_4.jpg",
+                    "alt": "Bastión Hueco"
+                }
             },
             {
                 "tipo": "p",
@@ -1560,12 +2186,26 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_5.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_5.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "En esta zona tienes que ir pulsando los interruptores por orden según te los vas encontrando (es muy sencillo al no tratarse de ningún otro orden en concreto) y al final tras pulsar el cuarto, métete en la burbuja que hay detrás de la barrera."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_6.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_6.jpg",
+                    "alt": "Bastión Hueco"
+                }
             },
             {
                 "tipo": "p",
@@ -1576,12 +2216,33 @@
                 "contenido": "<img alt=\"Riku\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/riku.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/riku.jpg",
+                    "alt": "Riku"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Se trata de Riku, equipado con una espada, y es bastante ágil, pero por suerte tus compañeros Donald y Goofy ya estarán de vuelta, además te habrán devuelto tu espada-llave. Céntrate sobre todo en esquivar sus ataques y ataca solo cuando tengas oportunidad, no vayas a lo loco a por él. Ten en cuenta que por las paredes de la zona hay varias tinajas que al romperlas soltarán algunas bolas de VIT."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_7.jpg\" width=\"320\"/> <img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_8.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_7.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_8.jpg",
+                    "alt": "Bastión Hueco"
+                }
             },
             {
                 "tipo": "p",
@@ -1652,6 +2313,13 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_9.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_9.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Pero en lugar de ir por ahí, dirígete al Vestíbulo por la puerta que desbloqueaste antes en el segundo piso, en donde hay que resolver otro “puzzle”."
             },
@@ -1676,6 +2344,13 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_10.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_10.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "En uno de esos balcones hay una pequeña losa de piedra, así que lánzale la magia Electro para activar las plataformas que conectan el primer y segundo piso del vestíbulo. Dicho eso, baja al primer piso, sube las escaleras y ve a la puerta indicada por la imagen de arriba, examínala 4 veces seguidas para colocar todos los fragmentos y abrirla, desbloqueando así el camino a la Parada de teleféricos."
             },
@@ -1684,12 +2359,26 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_11.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_11.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ve por la única puerta disponible para salir al exterior a la Entrada principal. Sube las escaleras y examina el interruptor indicado para que una plataforma te lleve al “Muro del emblema”."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_12.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_12.jpg",
+                    "alt": "Bastión Hueco"
+                }
             },
             {
                 "tipo": "p",
@@ -1704,6 +2393,13 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_13.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_13.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Gira a la izquierda y activa el segundo interruptor para hacer bajar uno de los bloques. Entonces da media vuelta y pasa por la puerta cercana a por donde subiste para ir a la Parada de teleféricos."
             },
@@ -1714,6 +2410,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Maléfica\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/malefica.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/malefica.jpg",
+                    "alt": "Maléfica"
+                }
             },
             {
                 "tipo": "p",
@@ -1728,6 +2431,13 @@
                 "contenido": "<img alt=\"Dragón\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/dragon.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/dragon.jpg",
+                    "alt": "Dragón"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Esta vez Maléfica se habrá transformado en un Dragón y sigas la estrategia que sigas, va a ser una pelea muy dura. Lo ideal es que te mantuvieras siempre en el extremo del escenario para que no te alcanzasen sus ataques y te limitases a lanzar magias Piro, pero no te llegarían los éter... así que tendrás que combinar eso (ya sea desde el borde del escenario o bien trepando por su espalda) y atacarle en la cabeza mientras saltas, pero siempre desde un lado, nunca de frente."
             },
@@ -1738,6 +2448,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Riku\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/riku_2.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/riku_2.jpg",
+                    "alt": "Riku"
+                }
             },
             {
                 "tipo": "p",
@@ -1778,6 +2495,20 @@
                 "contenido": "<img alt=\"Canal Oculto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/canal-oculto_1.jpg\" width=\"320\"/> <img alt=\"Canal Oculto\" height=\"180\" src=\"/img/juegos/kingdom-hearts/canal-oculto_2.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/canal-oculto_1.jpg",
+                    "alt": "Canal Oculto"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/canal-oculto_2.jpg",
+                    "alt": "Canal Oculto"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ve al Distrito 2, entra en el Hotel, en el Cuarto verde, sal al Callejón y entra en el Canal Oculto. Una vez allí, acércate al mural del sol para conseguir la “Gumi guía”."
             },
@@ -1798,6 +2529,13 @@
                 "contenido": "<img alt=\"Bella y Bestia\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bella_bestia.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bella_bestia.jpg",
+                    "alt": "Bella y Bestia"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Cuando llegues finalmente al Bastión, añade a Bestia al grupo si quieres y luego entra en el castillo. Entra en el Vestíbulo y luego sube las escaleras para ir a la Biblioteca, en donde te encontrarás con Bella; habla con ella tras la escena y te dará la llave-espada “La rosa”."
             },
@@ -1806,12 +2544,33 @@
                 "contenido": "<img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_14.jpg\" width=\"320\"/> <img alt=\"Bastión Hueco\" height=\"180\" src=\"/img/juegos/kingdom-hearts/bastion-hueco_15.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_14.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bastion-hueco_15.jpg",
+                    "alt": "Bastión Hueco"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ahora dirígete a la Capilla (consulta la sección de la visita anterior al <a class=\"g_azul\" href=\"kingdom-hearts-p18.php\">Bastión Hueco</a> para más detalles), habla con las princesas que están allí, descansa y graba la partida en el Círculo de luz. Sal por la puerta de al lado de este para ir a la Parada de teleféricos y pasa por la siguiente puerta para llegar al Gran Salón, en donde tendrás que meterte por esa cerradura para ir a la Cueva de las sombras, teniendo que enfrentarte a un jefazo nada más llegar."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bégimo\" height=\"310\" src=\"/img/juegos/kingdom-hearts/begimo.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/begimo.jpg",
+                    "alt": "Bégimo"
+                }
             },
             {
                 "tipo": "p",
@@ -1824,26 +2583,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Antes de continuar, hay un par de cosas extra que hacer.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Para empezar, antes de salir del Bastión Hueco, ve a la Biblioteca para hablar con Aeris, la cual te dará los Informes Ansem <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">2</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">4</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">6</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">10</a>, además, si hablas con ella una segunda vez, la magia “Cura+” ascenderá a “Cura++”.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Y en cuanto te montes en la nave, haz antes una parada en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> para participar en la <a class=\"g_azul\" href=\"kingdom-hearts-p20.php\">Copa Hades</a>.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Antes de continuar, hay un par de cosas extra que hacer.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Para empezar, antes de salir del Bastión Hueco, ve a la Biblioteca para hablar con Aeris, la cual te dará los Informes Ansem <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">2</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">4</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">6</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">10</a>, además, si hablas con ella una segunda vez, la magia “Cura+” ascenderá a “Cura++”.</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Y en cuanto te montes en la nave, haz antes una parada en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> para participar en la <a class=\"g_azul\" href=\"kingdom-hearts-p20.php\">Copa Hades</a>.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Antes de continuar, hay un par de cosas extra que hacer."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Para empezar, antes de salir del Bastión Hueco, ve a la Biblioteca para hablar con Aeris, la cual te dará los Informes Ansem <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">2</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">4</a>, <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">6</a> y <a class=\"g_azul\" href=\"kingdom-hearts-p43.php\">10</a>, además, si hablas con ella una segunda vez, la magia “Cura+” ascenderá a “Cura++”."
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Y en cuanto te montes en la nave, haz antes una parada en el <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> para participar en la <a class=\"g_azul\" href=\"kingdom-hearts-p20.php\">Copa Hades</a>."
             }
         ]
     },
@@ -1868,12 +2607,26 @@
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_1.jpg",
+                    "alt": "Fin del Mundo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Sal al Espacio infinito y como podrás comprobar, hay unas barreras invisibles a lo largo de toda la zona, por lo cual no podrás andar libremente, pero es muy sencillo ya que solo tienes que ir de plataforma en plataforma. Y por cada cofre que abras serás transportado a una pequeña zona nueva en la que tendrás que eliminar a un grupo de enemigos para poder escapar y luego abrir el contenido de dicho cofre. En Eliteguias te recomendamos que no te saltes ninguno, puesto que contienen objetos bastante interesantes. Al llegar al fondo combatirás contra un Bégimo y luego ya podrás ir a la Gran grieta."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_2.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_2.jpg",
+                    "alt": "Fin del Mundo"
+                }
             },
             {
                 "tipo": "p",
@@ -1888,6 +2641,13 @@
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_3.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_3.jpg",
+                    "alt": "Fin del Mundo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Aquí irás avanzando por una serie de plataformas, de una forma u otra dependiendo de las cerraduras que hayas sellado... Si has sellado todas las cerraduras será tan simple como tocar la luz blanca (la verde te lleva al inicio) para ir de plataforma en plataforma, pero si te has dejado alguna cerradura sin sellar, entonces en lugar de la luz blanca tendrás que tocar la columna de energía del centro, lo que supone ir a una zona nueva y eliminar a todos los enemigos."
             },
@@ -1896,20 +2656,15 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">La cerradura del <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> también cuenta.</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">La cerradura del <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> también cuenta.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "La cerradura del <a class=\"g_azul\" href=\"kingdom-hearts-p5.php\">Coliseo</a> también cuenta."
-            },
-            {
                 "tipo": "p",
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_4.jpg",
+                    "alt": "Fin del Mundo"
+                }
             },
             {
                 "tipo": "p",
@@ -1920,12 +2675,26 @@
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_5.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_5.jpg",
+                    "alt": "Fin del Mundo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Elimina a los enemigos y pasa por la puerta desbloqueada a la izquierda. Examina el mecanismo de esa sala para ver un mensaje y elimina a más enemigos para desbloquear la puerta y poder salir. Métete en el agujero negro para volver a los Mundos cautivos y tírate por el agujero que habrá aparecido en el agujero para enfrentarte al primero de varios jefazos."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Chernabog\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/chernabog.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/chernabog.jpg",
+                    "alt": "Chernabog"
+                }
             },
             {
                 "tipo": "p",
@@ -1944,12 +2713,33 @@
                 "contenido": "<img alt=\"Fin del Mundo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_6.jpg\" width=\"320\"/> <img alt=\"Fin del Mundo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/fin-del-mundo_7.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_6.jpg",
+                    "alt": "Fin del Mundo"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/fin-del-mundo_7.jpg",
+                    "alt": "Fin del Mundo"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Asegúrate de usar el Círculo de luz para descansar y grabar la partida y si quieres hacer cualquier otra cosa fuera de este mundo, aprovecha también para montarte en la nave gumi. Acércate a la puerta y obsérvala dos veces seguidas. Ahora estarás en la Isla de los recuerdos, así que ve al “Lugar secreto” y luego acércate a Riku para comenzar el combate0 contra un jefazo."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Ansem\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ansem.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ansem.jpg",
+                    "alt": "Ansem"
+                }
             },
             {
                 "tipo": "p",
@@ -1964,6 +2754,13 @@
                 "contenido": "<img alt=\"Lado Oscuro\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/lado-oscuro_1.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/lado-oscuro_1.jpg",
+                    "alt": "Lado Oscuro"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Ya te has enfrentado antes al Lado Oscuro, así que recuerda atacarle a las manos y a la cabeza cuando ésta esté lo suficientemente baja. La principal particularidad es que ahora Sora estará solo y tendrá que combatir sin la ayuda de sus amigos. Las sombras pequeñas básicamente servirán como surtidores de bolas de VIT."
             },
@@ -1972,12 +2769,26 @@
                 "contenido": "<img alt=\"Ansem\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/ansem_2.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/ansem_2.jpg",
+                    "alt": "Ansem"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Tendrás que enfrentarte otra vez a Ansem y poco más hay que decir sobre la estrategia, pero como ahora Sora está solo, tendrás que tener mucha más paciencia ya que no va a ser tan sencillo causarle daño como antes."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Mundo Caótico\" height=\"310\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/mundo-caotico.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/mundo-caotico.jpg",
+                    "alt": "Mundo Caótico"
+                }
             },
             {
                 "tipo": "p",
@@ -2018,14 +2829,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Ahora si quieres seguir jugando para conseguir todo lo secundario/opcional, la única forma es cargar el último guardado que tengas, ya que no podrás continuar jugando tras el final.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Ahora si quieres seguir jugando para conseguir todo lo secundario/opcional, la única forma es cargar el último guardado que tengas, ya que no podrás continuar jugando tras el final.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Ahora si quieres seguir jugando para conseguir todo lo secundario/opcional, la única forma es cargar el último guardado que tengas, ya que no podrás continuar jugando tras el final."
             }
         ]
     },
@@ -2230,18 +3033,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Cuando avances en el juego, puedes facilitar enormemente esto si saltas directamente hacia la meta usando la habilidad “Planeador” o mejor aún, “Suplerplaneador”.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Cuando avances en el juego, puedes facilitar enormemente esto si saltas directamente hacia la meta usando la habilidad “Planeador” o mejor aún, “Suplerplaneador”.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Cuando avances en el juego, puedes facilitar enormemente esto si saltas directamente hacia la meta usando la habilidad “Planeador” o mejor aún, “Suplerplaneador”."
             }
         ]
     },
@@ -2260,6 +3051,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Árbol de la miel\" height=\"310\" src=\"/img/juegos/kingdom-hearts/arbol-de-la-miel.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/arbol-de-la-miel.jpg",
+                    "alt": "Árbol de la miel"
+                }
             },
             {
                 "tipo": "p",
@@ -2328,18 +3126,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos."
             }
         ]
     },
@@ -2358,6 +3144,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Bloquea a Tigger\" height=\"310\" src=\"/img/juegos/kingdom-hearts/bloquea-a-tigger.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bloquea-a-tigger.jpg",
+                    "alt": "Bloquea a Tigger"
+                }
             },
             {
                 "tipo": "p",
@@ -2410,18 +3203,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos."
             }
         ]
     },
@@ -2440,6 +3221,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Columpio de Pooh\" height=\"310\" src=\"/img/juegos/kingdom-hearts/columpio-de-pooh.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/columpio-de-pooh.jpg",
+                    "alt": "Columpio de Pooh"
+                }
             },
             {
                 "tipo": "p",
@@ -2464,18 +3252,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos."
             }
         ]
     },
@@ -2494,6 +3270,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Tinaja\" height=\"310\" src=\"/img/juegos/kingdom-hearts/tinaja.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/tinaja.jpg",
+                    "alt": "Tinaja"
+                }
             },
             {
                 "tipo": "p",
@@ -2542,18 +3325,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos."
             }
         ]
     },
@@ -2644,18 +3415,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Consulta la sección del <a class=\"g_azul\" href=\"kingdom-hearts-p41.php\">Bosque de los Cien Acres</a> para ver la recompensa general que tiene que ver con todos los minijuegos."
             }
         ]
     },
@@ -2757,179 +3516,7 @@
             },
             {
                 "tipo": "nota",
-                "contenido": "Bolas de PM"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">-Sora tiene 4 PM: 10 bolas pequeñas</p><p align=\"justify\" class=\"gtext\">-Sora tiene 5 o 6 PM: 5 bolas pequeñas y 5 grandes</p><p align=\"justify\" class=\"gtext\">-Sora tiene 7 o más PM: 10 bolas grandes</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Sora tiene 4 PM: 10 bolas pequeñas"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Sora tiene 5 o 6 PM: 5 bolas pequeñas y 5 grandes"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Sora tiene 7 o más PM: 10 bolas grandes"
-            },
-            {
-                "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">Objetos </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\"><u>Ciudad de Paso</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro ígneo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro ígneo (60%), Piedra ígnea (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>El País de las Maravillas</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro frío (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro frío (60%), Piedra fría (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Selva Profunda</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro rayo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro rayo (60%), Piedra rayo (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Agrabah</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro vital (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro vital (60%), Piedra vital (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Monstruo</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro claro (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro claro (60%), Piedra clara (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Ciudad Halloween</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro fuerte (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro fuerte (60%), Piedra fuerte (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>País de Nunca Jamás</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro bravo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro bravo (60%), Piedra brava (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Bastión Hueco</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro claro (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro claro (60%), Piedra clara (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Fin del Mundo</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Trozo de mitrilo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Trozo de mitrilo (60%), Mitrilo (30%)</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "Objetos"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\"><u>Ciudad de Paso</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro ígneo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro ígneo (60%), Piedra ígnea (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>El País de las Maravillas</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro frío (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro frío (60%), Piedra fría (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Selva Profunda</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro rayo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro rayo (60%), Piedra rayo (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Agrabah</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro vital (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro vital (60%), Piedra vital (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Monstruo</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Ultrapoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Éter (100%), Guijarro claro (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Omnipoción (100%), Guijarro claro (60%), Piedra clara (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Ciudad Halloween</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro fuerte (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro fuerte (60%), Piedra fuerte (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>País de Nunca Jamás</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro bravo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro bravo (60%), Piedra brava (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Bastión Hueco</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Guijarro claro (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Guijarro claro (60%), Piedra clara (30%)</p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\"><u>Fin del Mundo</u></p><p align=\"justify\" class=\"gtext\"> </p><p align=\"justify\" class=\"gtext\">-Medidor 1: Omnipoción (100%)</p><p align=\"justify\" class=\"gtext\">-Medidor 2: Omniéter (100%), Trozo de mitrilo (40%)</p><p align=\"justify\" class=\"gtext\">-Medidor 3: Elixir (100%), Trozo de mitrilo (60%), Mitrilo (30%)</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Ciudad de Paso</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Ultrapoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Éter (100%), Guijarro ígneo (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Omnipoción (100%), Guijarro ígneo (60%), Piedra ígnea (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>El País de las Maravillas</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Ultrapoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Éter (100%), Guijarro frío (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Omnipoción (100%), Guijarro frío (60%), Piedra fría (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Selva Profunda</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Ultrapoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Éter (100%), Guijarro rayo (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Omnipoción (100%), Guijarro rayo (60%), Piedra rayo (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Agrabah</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Ultrapoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Éter (100%), Guijarro vital (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Omnipoción (100%), Guijarro vital (60%), Piedra vital (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Monstruo</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Ultrapoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Éter (100%), Guijarro claro (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Omnipoción (100%), Guijarro claro (60%), Piedra clara (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Ciudad Halloween</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Omnipoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Omniéter (100%), Guijarro fuerte (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Elixir (100%), Guijarro fuerte (60%), Piedra fuerte (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>País de Nunca Jamás</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Omnipoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Omniéter (100%), Guijarro bravo (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Elixir (100%), Guijarro bravo (60%), Piedra brava (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Bastión Hueco</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Omnipoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Omniéter (100%), Guijarro claro (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Elixir (100%), Guijarro claro (60%), Piedra clara (30%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "<u>Fin del Mundo</u>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 1: Omnipoción (100%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 2: Omniéter (100%), Trozo de mitrilo (40%)"
-            },
-            {
-                "tipo": "p",
-                "contenido": "-Medidor 3: Elixir (100%), Trozo de mitrilo (60%), Mitrilo (30%)"
             },
             {
                 "tipo": "h4",
@@ -3116,6 +3703,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Dálmatas\" height=\"180\" src=\"/img/juegos/kingdom-hearts/dalmatas.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/dalmatas.jpg",
+                    "alt": "Dálmatas"
+                }
             },
             {
                 "tipo": "p",
@@ -3460,12 +4054,26 @@
                 "contenido": "<img height=\"180\" src=\"/img/juegos/kingdom-hearts/bosque-de-los-cien-acres_1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bosque-de-los-cien-acres_1.jpg",
+                    "alt": "Imagen de la guía"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Este es un mundo totalmente opcional y un poco particular al que podrás acceder por primera vez a él durante la <a class=\"g_azul\" href=\"kingdom-hearts-p8.php\">segunda visita a Ciudad de Paso</a>, examinando el libro que está en el Estudio del mago (en Eliteguias ya te indicamos el momento exacto durante esa parte de la guía)."
             },
             {
                 "tipo": "p",
                 "contenido": "<img height=\"180\" src=\"/img/juegos/kingdom-hearts/bosque-de-los-cien-acres_2.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/bosque-de-los-cien-acres_2.jpg",
+                    "alt": "Imagen de la guía"
+                }
             },
             {
                 "tipo": "p",
@@ -3476,24 +4084,19 @@
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">No tienes que hacer todas las zonas a la vez, puedes hacerlo poco a poco según vas encontrando las hojas si quieres.</p></div>"
             },
             {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">No tienes que hacer todas las zonas a la vez, puedes hacerlo poco a poco según vas encontrando las hojas si quieres.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "No tienes que hacer todas las zonas a la vez, puedes hacerlo poco a poco según vas encontrando las hojas si quieres."
-            },
-            {
                 "tipo": "h3",
                 "contenido": "PRADERA"
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Pradera\" height=\"180\" src=\"/img/juegos/kingdom-hearts/pradera.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/pradera.jpg",
+                    "alt": "Pradera"
+                }
             },
             {
                 "tipo": "p",
@@ -3508,12 +4111,33 @@
                 "contenido": "<img alt=\"Casa de Winnie de Pooh\" height=\"180\" src=\"/img/juegos/kingdom-hearts/casa-de-winnie-de-pooh_1.jpg\" width=\"320\"/> <img alt=\"Casa de Winnie de Pooh\" height=\"180\" src=\"/img/juegos/kingdom-hearts/casa-de-winnie-de-pooh_2.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/casa-de-winnie-de-pooh_1.jpg",
+                    "alt": "Casa de Winnie de Pooh"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/casa-de-winnie-de-pooh_2.jpg",
+                    "alt": "Casa de Winnie de Pooh"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Aparte de un círculo de luz, tras pasar por la Pradera, se desbloqueará esta localización en la parte izquierda del mapa, así que ve hasta allí. Primero ve al tejado de la parte trasera de la casa y golpea la chimenea para que así aparezca un cofre con un omniéter dentro de la casa. Entonces entra y aparte de recogerlo, habla con el oso."
             },
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Casa de Winnie de Pooh\" height=\"180\" src=\"/img/juegos/kingdom-hearts/casa-de-winnie-de-pooh_3.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/casa-de-winnie-de-pooh_3.jpg",
+                    "alt": "Casa de Winnie de Pooh"
+                }
             },
             {
                 "tipo": "p",
@@ -3530,6 +4154,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Árbol de la Miel\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/arbol-de-la-miel_1.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/arbol-de-la-miel_1.jpg",
+                    "alt": "Árbol de la Miel"
+                }
             },
             {
                 "tipo": "p",
@@ -3550,6 +4181,20 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Casa de Conejo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/casa-de-conejo_1.jpg\" width=\"320\"/> <img alt=\"Casa de Conejo\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/casa-de-conejo_2.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/casa-de-conejo_1.jpg",
+                    "alt": "Casa de Conejo"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/casa-de-conejo_2.jpg",
+                    "alt": "Casa de Conejo"
+                }
             },
             {
                 "tipo": "p",
@@ -3576,6 +4221,20 @@
                 "contenido": "<img alt=\"Colina\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/colina_1.jpg\" width=\"320\"/> <img alt=\"Colina\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/colina_2.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/colina_1.jpg",
+                    "alt": "Colina"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/colina_2.jpg",
+                    "alt": "Colina"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Lo primero que tienes que hacer es tirarte al agua y acercarte al burro Igor para sacarle del agua. Entonces, fija la vista en Pooh y ve andando lentamente hasta el columpio que está en lo alto de la colina, en donde tendrás que participar en el minijuego <a class=\"g_azul\" href=\"kingdom-hearts-p30.php\">Columpio de Pooh</a>."
             },
@@ -3594,6 +4253,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Zona de saltos\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/zona-de-saltos.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/zona-de-saltos.jpg",
+                    "alt": "Zona de saltos"
+                }
             },
             {
                 "tipo": "p",
@@ -3616,6 +4282,13 @@
                 "contenido": "<img alt=\"Camino lodoso\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/camino-lodoso.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/camino-lodoso.jpg",
+                    "alt": "Camino lodoso"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Primero habla con Pooh y luego con Igor entre esas ramas, para comenzar el minijuego del <a class=\"g_azul\" href=\"kingdom-hearts-p32.php\">Camino lodoso</a>. Al terminarlo, sal al mapa y la Hoja arrancada se transformará en el objeto “Orichalcum”, además de haber sellado la Cerradura de este mundo."
             },
@@ -3636,6 +4309,13 @@
                 "contenido": "<img alt=\"Hoja arrancada\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/hoja-arrancada-1.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/hoja-arrancada-1.jpg",
+                    "alt": "Hoja arrancada"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Dentro de un cofre en la “Cueva de las Maravillas”, en <a class=\"g_azul\" href=\"kingdom-hearts-p10.php\">Agrabah</a>."
             },
@@ -3646,6 +4326,20 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Hoja arrancada\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/hoja-arrancada-2a.jpg\" width=\"320\"/> <img alt=\"Hoja arrancada\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/hoja-arrancada-2b.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/hoja-arrancada-2a.jpg",
+                    "alt": "Hoja arrancada"
+                }
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/hoja-arrancada-2b.jpg",
+                    "alt": "Hoja arrancada"
+                }
             },
             {
                 "tipo": "p",
@@ -3660,6 +4354,13 @@
                 "contenido": "<img alt=\"Hoja arrancada\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/hoja-arrancada-3.jpg\" width=\"320\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/hoja-arrancada-3.jpg",
+                    "alt": "Hoja arrancada"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Dentro de un cofre en la Gruta de Ariel, en Atlántica."
             },
@@ -3670,6 +4371,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Hoja arrancada\" height=\"180\" loading=\"lazy\" src=\"/img/juegos/kingdom-hearts/hoja-arrancada-4.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/hoja-arrancada-4.jpg",
+                    "alt": "Hoja arrancada"
+                }
             },
             {
                 "tipo": "p",
@@ -3728,6 +4436,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Tarjetas postales\" height=\"180\" src=\"/img/juegos/kingdom-hearts/tarjetas-postales.jpg\" width=\"320\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/tarjetas-postales.jpg",
+                    "alt": "Tarjetas postales"
+                }
             },
             {
                 "tipo": "p",
@@ -3980,6 +4695,13 @@
                 "contenido": "<img alt=\"Espectro\" height=\"310\" src=\"/img/juegos/kingdom-hearts/espectro.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/espectro.jpg",
+                    "alt": "Espectro"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Después de haber rescatado a Kairi durante la historia principal, viaja al País de Nunca Jamás, en concreto aterrizando en “Camarote”. Asegúrate de poner a Peter Pan en tu grupo y habla con Campanilla e ir hacia la Torre del reloj, para que de camino os ataque este jefazo."
             },
@@ -4030,6 +4752,13 @@
                 "contenido": "<img alt=\"Kurt Siza\" height=\"310\" src=\"/img/juegos/kingdom-hearts/kurt-siza.jpg\" width=\"550\"/>"
             },
             {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/kurt-siza.jpg",
+                    "alt": "Kurt Siza"
+                }
+            },
+            {
                 "tipo": "p",
                 "contenido": "Después de rescatar a Kairi en la historia principal, ve a la Casa de Aladín en Agrabah y móntate en la alfombra voladora. A mitad de camino te atacará este jefazo secreto."
             },
@@ -4052,18 +4781,6 @@
             {
                 "tipo": "nota",
                 "contenido": "<div class=\"gtext\" id=\"quote1\">NOTA: </div><div id=\"quote2\"><p align=\"justify\" class=\"gtext\">Al inicio no puedes, pero en cuanto tengas disponible el uso de magia, aprovecha para invocar a <a class=\"g_azul\" href=\"kingdom-hearts-p37.php\">Campanilla</a>, a ser posible espera a hacerlo poco antes de destrozar la esfera de energía que lo protege.</p></div>"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "NOTA:"
-            },
-            {
-                "tipo": "nota",
-                "contenido": "<p align=\"justify\" class=\"gtext\">Al inicio no puedes, pero en cuanto tengas disponible el uso de magia, aprovecha para invocar a <a class=\"g_azul\" href=\"kingdom-hearts-p37.php\">Campanilla</a>, a ser posible espera a hacerlo poco antes de destrozar la esfera de energía que lo protege.</p>"
-            },
-            {
-                "tipo": "p",
-                "contenido": "Al inicio no puedes, pero en cuanto tengas disponible el uso de magia, aprovecha para invocar a <a class=\"g_azul\" href=\"kingdom-hearts-p37.php\">Campanilla</a>, a ser posible espera a hacerlo poco antes de destrozar la esfera de energía que lo protege."
             }
         ]
     },
@@ -4086,6 +4803,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Sefirot\" height=\"310\" src=\"/img/juegos/kingdom-hearts/sefirot.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/sefirot.jpg",
+                    "alt": "Sefirot"
+                }
             },
             {
                 "tipo": "p",
@@ -4128,6 +4852,13 @@
             {
                 "tipo": "p",
                 "contenido": "<img alt=\"Titán de hielo\" height=\"310\" src=\"/img/juegos/kingdom-hearts/titan-de-hielo.jpg\" width=\"550\"/>"
+            },
+            {
+                "tipo": "img",
+                "contenido": {
+                    "src": "imagenes_guia/titan-de-hielo.jpg",
+                    "alt": "Titán de hielo"
+                }
             },
             {
                 "tipo": "p",
